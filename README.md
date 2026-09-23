@@ -46,3 +46,30 @@ A---B---C       ← main
           D---E ← origin/main
 
 Tumhari main branch abhi bhi C par hai. Bas tumhe pata chal gaya ki remote par D aur E aa gaye hain.
+
+--git pull--
+git pull — fetch + merge/rebase
+git pull origin main
+
+Generally ye:
+
+git fetch
+git merge
+
+jaisa kaam karta hai (configuration ke hisaab se pull rebase bhi kar sakta hai).
+
+Agar remote par D aur E naye commits hain:
+
+Before pull:
+
+A---B---C       ← main
+         \
+          D---E ← origin/main
+
+git pull ke baad:
+
+A---B---C---D---E   ← main
+
+Matlab remote changes download bhi hue aur tumhari current branch mein integrate bhi ho gaye.
+
+
