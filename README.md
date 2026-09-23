@@ -1,6 +1,6 @@
 # github-tasks
 # Git Merge Lab
-//merge repo
+//merge repo😃
 
 This repository is for practicing:
 
@@ -19,7 +19,7 @@ and solving them to understand Git better.
 
 
 //git fetch or git pull
- ---git fetch---
+ ---git fetch---😃
 git fetch — sirf changes download karo
 git fetch origin
 
@@ -47,7 +47,7 @@ A---B---C       ← main
 
 Tumhari main branch abhi bhi C par hai. Bas tumhe pata chal gaya ki remote par D aur E aa gaye hain.
 
---git pull--
+--git pull--😃
 git pull — fetch + merge/rebase
 git pull origin main
 
@@ -71,5 +71,17 @@ git pull ke baad:
 A---B---C---D---E   ← main
 
 Matlab remote changes download bhi hue aur tumhari current branch mein integrate bhi ho gaye.
+
+Git Detached HEAD – Practical Example😃
+What is Detached HEAD?
+Normally, HEAD kisi branch ko point karta hai:
+
+HEAD → main → commit
+
+Detached HEAD mein HEAD directly kisi commit ko point karta hai:
+
+HEAD → commit
+
+Iska use kisi specific/old commit ko check ya test karne ke liye kiya ja sakta hai.
 
 
